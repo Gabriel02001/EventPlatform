@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "target": "EsNext",
+    "useDefineForClassFields": true,
+    "lib":["DOM", "DOM.Iterable", "ESNext"],
+    "composite": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": ["vite.config.ts"]
+}
